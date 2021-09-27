@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Swish Deals</string>
+
+    <string name="hint_enjoy_your_deals">Enjoy \nYour \nDeals</string>
+
+    <!-- Explore -->
+    <string name="hint_explore">Explore</string>
+    <string name="hint_explore_description">Discover categories you haven’t explored recently</string>
+    <string name="hint_trending">Trending</string>
+    <string name="hint_education">Education</string>
+    <string name="hint_health">Health</string>
+    <string name="hint_home_decor">Home Decor</string>
+    <string name="hint_electronics">Electronics</string>
+    <string name="hint_business">Business</string>
+    <string name="hint_family">Family</string>
+
+    <!-- Top Offers -->
+    <string name="hint_top_offers">Top Offers</string>
+    <string name="hint_top_offer_description">Handpicked Deals for you</string>
+    <string name="hint_zara">ZARA</string>
+    <string name="hint_zara_description">Universal Furniture Single Swing with Metal Stand - 114.3x91.4x76.2cm</string>
+    <string name="hint_amount">$90.99</string>
+    <string name="strike_amount"><strike>$98.99</strike></string>
+    <string name="hint_buy_now">Buy Now</string>
+    <string name="hint_handpicked_offers">HANDPICKED OFFERS\nJUST FOR YOU</string>
+
+    <!-- Stories-->
+    <string name="hint_stories">Stories</string>
+    <string name="hint_stories_description">Best Deals for the day</string>
+    <string name="sample_stories">12 Stories</string>
+    <string name="hint_todo">TODO</string>
+
+    <!-- Top Stories-->
+    <string name="hint_top_stores">Top Stores</string>
+    <string name="sample_stories_title_1">Earth\'s Biggest Store</string>
+    <string name="hint_discount">Get discounts up to 30% OFF</string>
+    <string name="sample_stories_title_2">Target</string>
+
+
+</resources>

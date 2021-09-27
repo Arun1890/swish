@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/container_background"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:paddingTop="20dp">
+
+
+    <include layout="@layout/content_stories" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/split_item_view" />
+
+    <include layout="@layout/content_explore" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/split_item_view" />
+
+    <include layout="@layout/content_top_stores" />
+
+    <include layout="@layout/content_offers" />
+
+
+</LinearLayout>

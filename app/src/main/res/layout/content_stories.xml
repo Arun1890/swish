@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_layout_stories"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="0dp"
+    android:paddingBottom="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/hint_stories"
+        android:textColor="@color/black"
+        android:textSize="@dimen/heading_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_medium"
+        android:text="@string/hint_stories_description"
+        android:textSize="@dimen/heading_description" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="@dimen/stories_card_width"
+                android:layout_height="@dimen/stories_card_height">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/sample_img"
+                    app:riv_border_color="@color/white"
+                    app:riv_border_width="1dip"
+                    app:riv_corner_radius="@dimen/curved_corner_radius"
+                    app:riv_mutate_background="true" />
+
+
+                <ImageView
+                    android:layout_width="@dimen/stories_card_image_width_height"
+                    android:layout_height="@dimen/stories_card_image_width_height"
+                    android:layout_margin="15dp"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_amazon_normal" />
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/stories_card_width"
+                android:layout_height="@dimen/stories_card_height">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/sample_img_1"
+                    app:riv_border_color="@color/white"
+                    app:riv_border_width="1dip"
+                    app:riv_corner_radius="@dimen/curved_corner_radius"
+                    app:riv_mutate_background="true" />
+
+
+                <ImageView
+                    android:layout_width="@dimen/stories_card_image_width_height"
+                    android:layout_height="@dimen/stories_card_image_width_height"
+                    android:layout_margin="15dp"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_zara_normal" />
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/stories_card_width"
+                android:layout_height="@dimen/stories_card_height">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/sample_img"
+                    app:riv_border_color="@color/white"
+                    app:riv_border_width="1dip"
+                    app:riv_corner_radius="@dimen/curved_corner_radius"
+                    app:riv_mutate_background="true" />
+
+
+                <ImageView
+                    android:layout_width="@dimen/stories_card_image_width_height"
+                    android:layout_height="@dimen/stories_card_image_width_height"
+                    android:layout_margin="15dp"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_amazon_normal" />
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/stories_card_width"
+                android:layout_height="@dimen/stories_card_height">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/sample_img_1"
+                    app:riv_border_color="@color/white"
+                    app:riv_border_width="1dip"
+                    app:riv_corner_radius="@dimen/curved_corner_radius"
+                    app:riv_mutate_background="true" />
+
+
+                <ImageView
+                    android:layout_width="@dimen/stories_card_image_width_height"
+                    android:layout_height="@dimen/stories_card_image_width_height"
+                    android:layout_margin="15dp"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_zara_normal" />
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/stories_card_width"
+                android:layout_height="@dimen/stories_card_height">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/sample_img_1"
+                    app:riv_border_color="@color/white"
+                    app:riv_border_width="1dip"
+                    app:riv_corner_radius="@dimen/curved_corner_radius"
+                    app:riv_mutate_background="true" />
+
+
+                <ImageView
+                    android:layout_width="@dimen/stories_card_image_width_height"
+                    android:layout_height="@dimen/stories_card_image_width_height"
+                    android:layout_margin="15dp"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_zara_normal" />
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/stories_card_width"
+                android:layout_height="@dimen/stories_card_height">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/sample_img"
+                    app:riv_border_color="@color/white"
+                    app:riv_border_width="1dip"
+                    app:riv_corner_radius="@dimen/curved_corner_radius"
+                    app:riv_mutate_background="true" />
+
+
+                <ImageView
+                    android:layout_width="@dimen/stories_card_image_width_height"
+                    android:layout_height="@dimen/stories_card_image_width_height"
+                    android:layout_margin="15dp"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_amazon_normal" />
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/stories_card_width"
+                android:layout_height="@dimen/stories_card_height">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/sample_img_1"
+                    app:riv_border_color="@color/white"
+                    app:riv_border_width="1dip"
+                    app:riv_corner_radius="@dimen/curved_corner_radius"
+                    app:riv_mutate_background="true" />
+
+
+                <ImageView
+                    android:layout_width="@dimen/stories_card_image_width_height"
+                    android:layout_height="@dimen/stories_card_image_width_height"
+                    android:layout_margin="15dp"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_zara_normal" />
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+
+            <RelativeLayout
+                android:layout_width="@dimen/stories_card_width"
+                android:layout_height="@dimen/stories_card_height">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/sample_img"
+                    app:riv_border_color="@color/white"
+                    app:riv_border_width="1dip"
+                    app:riv_corner_radius="@dimen/curved_corner_radius"
+                    app:riv_mutate_background="true" />
+
+
+                <ImageView
+                    android:layout_width="@dimen/stories_card_image_width_height"
+                    android:layout_height="@dimen/stories_card_image_width_height"
+                    android:layout_margin="15dp"
+                    android:src="@drawable/ic_amazon_normal" />
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center"
+        android:layout_marginTop="15sp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/stories_lazy_loader_width_height"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/hint_todo"
+            android:src="@drawable/ic_lazy_loader" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="@font/font_medium"
+            android:gravity="end"
+            android:textAllCaps="true"
+            android:text="@string/sample_stories"
+            android:textSize="@dimen/heading_short_description" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

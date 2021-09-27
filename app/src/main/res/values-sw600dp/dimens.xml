@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_height">160dp</dimen>
+
+    <!-- Splash Screen   -->
+    <dimen name="app_title">34sp</dimen>
+    <dimen name="app_logo">70dp</dimen>
+    <dimen name="app_title_width">180dp</dimen>
+
+    <!--Main TabLayout-->
+    <dimen name="tab_txt_size">16sp</dimen>
+    <dimen name="tab_height">72sp</dimen>
+    <dimen name="tab_top_padding">15sp</dimen>
+    <dimen name="tab_icon_size">24sp</dimen>
+
+
+    <!-- Explore Text Size-->
+    <dimen name="heading_title">18sp</dimen>
+    <dimen name="heading_description">14sp</dimen>
+    <dimen name="heading_short_description">12sp</dimen>
+    <dimen name="curved_corner_radius">20dp</dimen>
+    <dimen name="curved_button_corner_radius">25dp</dimen>
+
+    <!-- Explore Text Size -->
+    <dimen name="explore_title_text_size">13sp</dimen>
+
+    <!-- Top Offers-->
+    <dimen name="offer_card_image_height">370dp</dimen>
+    <dimen name="offer_card_curve_width">72dp</dimen>
+    <dimen name="offer_card_curve_height">23dp</dimen>
+    <dimen name="offer_card_curve_top_margin">-22dp</dimen>
+
+    <dimen name="offer_card_curve_image_width_height">40dp</dimen>
+    <dimen name="offer_card_curve_image_margin_top">-19dp</dimen>
+    <dimen name="offer_card_curve_image_margin_start">19dp</dimen>
+
+    <dimen name="offer_card_title">14sp</dimen>
+    <dimen name="offer_card_description">15sp</dimen>
+    <dimen name="offer_card_amount">16sp</dimen>
+    <dimen name="offer_card_amount_discount">12sp</dimen>
+    <dimen name="offer_card_buy_button_width">110dp</dimen>
+    <dimen name="offer_card_buy_button_text_size">12sp</dimen>
+
+
+    <dimen name="offer_hint">48sp</dimen>
+    <dimen name="offer_hint_line_view">180dp</dimen>
+    <dimen name="offer_hint_description">12sp</dimen>
+
+
+    <!-- Stories-->
+    <dimen name="stories_card_width">134dp</dimen>
+    <dimen name="stories_card_height">220dp</dimen>
+    <dimen name="stories_card_image_width_height">28dp</dimen>
+    <dimen name="stories_lazy_loader_width_height">55dp</dimen>
+
+    <!-- Top Stories-->
+    <dimen name="top_stories_title">12sp</dimen>
+    <dimen name="top_stories_description">10sp</dimen>
+
+    <dimen name="top_stories_curved_width">260dp</dimen>
+    <dimen name="top_stories_curved_height">110dp</dimen>
+    <dimen name="top_stories_product_width">73dp</dimen>
+    <dimen name="top_stories_product_item_width">70dp</dimen>
+
+
+</resources>

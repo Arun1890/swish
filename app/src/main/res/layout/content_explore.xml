@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_layout_explore"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingTop="25dp"
+    android:paddingEnd="0dp"
+    android:paddingBottom="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/hint_explore"
+        android:textColor="@color/black"
+        android:textSize="@dimen/heading_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_medium"
+        android:text="@string/hint_explore_description"
+        android:textSize="@dimen/heading_description" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:scrollIndicators="left">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_trending" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/hint_trending"
+                    android:textColor="@color/black_medium"
+                    android:textSize="@dimen/explore_title_text_size" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:scrollIndicators="left">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_education" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/hint_education"
+                    android:textColor="@color/black_medium"
+                    android:textSize="@dimen/explore_title_text_size" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:scrollIndicators="left">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_health" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/hint_health"
+                    android:textColor="@color/black_medium"
+                    android:textSize="@dimen/explore_title_text_size" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:scrollIndicators="left">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_houehold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/hint_home_decor"
+                    android:textColor="@color/black_medium"
+                    android:textSize="@dimen/explore_title_text_size" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:scrollIndicators="left">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_electronics" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/hint_electronics"
+                    android:textColor="@color/black_medium"
+                    android:textSize="@dimen/explore_title_text_size" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:scrollIndicators="left">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_business" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/hint_business"
+                    android:textColor="@color/black_medium"
+                    android:textSize="@dimen/explore_title_text_size" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:scrollIndicators="left">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/hint_todo"
+                    android:src="@drawable/ic_family" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@font/font_regular"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/hint_family"
+                    android:textColor="@color/black_medium"
+                    android:textSize="@dimen/explore_title_text_size" />
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="25dp"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>
+
+

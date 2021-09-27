@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_layout_stores"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingTop="25dp"
+    android:paddingEnd="0dp"
+    android:paddingBottom="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_bold"
+        android:text="@string/hint_top_stores"
+        android:textColor="@color/black"
+        android:textSize="@dimen/heading_title" />
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="@dimen/top_stories_curved_width"
+                android:layout_height="@dimen/top_stories_curved_height"
+                android:layout_gravity="start|center"
+                android:background="@drawable/grey_border_bg_normal"
+                android:gravity="center|start"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:layout_toStartOf="@+id/relativeLayoutAmazon"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="0dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/top_stories_product_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/hint_todo"
+                        android:src="@drawable/ic_amazon_logo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font_bold"
+                        android:text="@string/sample_stories_title_1"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/top_stories_title" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/font_regular"
+                        android:text="@string/hint_discount"
+                        android:textSize="@dimen/top_stories_description" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayoutAmazon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="15dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/top_stories_product_item_width"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/hint_todo"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_light" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="wrap_content" />
+
+            <RelativeLayout
+                android:layout_width="@dimen/top_stories_curved_width"
+                android:layout_height="@dimen/top_stories_curved_height"
+                android:layout_gravity="start|center"
+                android:background="@drawable/grey_border_bg_select"
+                android:gravity="center|start"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="0dp">
+
+                    <ImageView
+                        android:layout_width="@dimen/top_stories_product_width"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="5dp"
+                        android:adjustViewBounds="true"
+                        android:contentDescription="@string/hint_todo"
+                        android:src="@drawable/ic_target" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font_bold"
+                        android:text="@string/sample_stories_title_2"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/top_stories_title" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="@font/font_regular"
+                        android:text="@string/hint_discount"
+                        android:textSize="@dimen/top_stories_description" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>

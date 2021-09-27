@@ -1,0 +1,59 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk rootProject.ext.compileSdk
+
+    defaultConfig {
+        applicationId "com.freelancer.swish"
+        minSdk rootProject.ext.minSdk
+        targetSdk rootProject.ext.targetSdk
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    aaptOptions {
+        cruncherEnabled = false
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    implementation "androidx.appcompat:appcompat:${rootProject.ext.supportLibraryVersion}"
+    implementation "androidx.constraintlayout:constraintlayout:${rootProject.ext.constraintVersion}"
+    implementation "com.google.android.material:material:${rootProject.ext.materialLibrayVersion}"
+
+    // Text Click Hyperlink
+    implementation 'com.klinkerapps:link_builder:2.0.5'
+    // Custom Layout
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    // Rounded ImageView
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.rishabhharit.roundedimageview:RoundedImageView:0.8.4'
+
+    testImplementation "junit:junit:${rootProject.ext.test_junit}"
+    androidTestImplementation "androidx.test:runner:${rootProject.ext.test_runner}"
+    androidTestImplementation "androidx.test.espresso:espresso-core:${rootProject.ext.test_espresso}"
+}

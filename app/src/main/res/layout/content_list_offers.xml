@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_offer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:elevation="10dp"
+    app:cardCornerRadius="@dimen/curved_corner_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.rishabhharit.roundedimageview.RoundedImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/offer_card_image_height"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_img_2"
+            app:roundedCorners="top" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/offer_card_curve_width"
+            android:layout_height="@dimen/offer_card_curve_height"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="@dimen/offer_card_curve_top_margin"
+            android:background="@drawable/ic_ellipse_curve"
+            android:gravity="center">
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/mini_image"
+            android:layout_width="@dimen/offer_card_curve_image_width_height"
+            android:layout_height="@dimen/offer_card_curve_image_width_height"
+            android:layout_marginStart="@dimen/offer_card_curve_image_margin_start"
+            android:layout_marginTop="@dimen/offer_card_curve_image_margin_top"
+            android:contentDescription="@string/hint_todo"
+            android:src="@drawable/ic_amazon_small" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_medium"
+                android:text="@string/hint_zara"
+                android:textColor="@color/black"
+                android:textSize="@dimen/offer_card_title" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_bold"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/hint_zara_description"
+                android:textColor="@color/black"
+                android:textSize="@dimen/offer_card_description" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:gravity="center|start"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/font_bold"
+                        android:text="@string/hint_amount"
+                        android:textColor="@color/color_amount"
+                        android:textSize="@dimen/offer_card_amount" />
+
+
+                    <TextView
+                        android:id="@+id/actual_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:fontFamily="@font/font_medium"
+                        android:text="@string/strike_amount"
+                        android:textSize="@dimen/offer_card_amount_discount" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_buy_now"
+                    android:layout_width="@dimen/offer_card_buy_button_width"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/font_semi_bold"
+                    android:gravity="center"
+                    android:text="@string/hint_buy_now"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/offer_card_buy_button_text_size"
+                    app:backgroundTint="@color/violet"
+                    app:cornerRadius="@dimen/curved_button_corner_radius" />
+
+
+            </RelativeLayout>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+
